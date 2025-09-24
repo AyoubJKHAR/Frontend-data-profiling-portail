@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rapport de Profiling</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rapport Profiling (Exemple)</h1>
+  <p><strong>Table analysée :</strong> clients.csv</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Colonne</th>
+        <th>Type</th>
+        <th>Valeurs uniques</th>
+        <th>Valeurs manquantes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>id</td>
+        <td>Integer</td>
+        <td>100</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>nom</td>
+        <td>String</td>
+        <td>95</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>age</td>
+        <td>Integer</td>
+        <td>45</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

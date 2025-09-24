@@ -1,0 +1,95 @@
+.container {
+  padding: 20px;
+}
+
+.panel {
+  padding: 20px;
+  border: 2px solid #FFD700;
+  border-radius: 8px;
+  background: #111;
+  color: #FFD700;
+  margin-top: 20px;
+}
+
+.h2 { margin-top: 0; }
+
+.button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #FFD700;
+  background: #FFD700;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button:disabled {
+  background: #555;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.listBox {
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.listHeader {
+  padding: 10px 12px;
+  border-bottom: 1px solid #FFD700;
+  background: #000;
+  color: #FFD700;
+  font-weight: 700;
+}
+.list {
+  max-height: 260px;
+  overflow-y: auto;
+  background: #000;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+.listItemActive { background: #1a1a1a; }
+
+.pill {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #FFD700;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #000;
+  color: #FFD700;
+}
+.th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #FFD700;
+}
+.td {
+  padding: 8px;
+  border-bottom: 1px solid #444;
+  vertical-align: middle;
+}
+
+.input {
+  padding: 4px 6px;
+  background: #111;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.error   { color: #ff7b7b; }
+.success { color: #9AE6B4; }
