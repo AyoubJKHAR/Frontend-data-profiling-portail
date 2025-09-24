@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import styles from "./ProfilingUpload.module.css";
 import type { LakehouseApi, SelectedLakehouse, SelectedTable } from "../../../types/lakehouse";
 import { BACKEND_URL, CONFIG_URL, RUN_PIPELINE_URL } from "../../../services/api";
