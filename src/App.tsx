@@ -6,7 +6,7 @@ import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Frontend-data-profiling-portail">
       <AnalysisProvider>
         <div style={{ display: 'flex' }}>
           <Sidebar />
